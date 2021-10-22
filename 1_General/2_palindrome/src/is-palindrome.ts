@@ -1,3 +1,3 @@
-export const isPalindrome = (str?: string): boolean | undefined => {
+export const isPalindrome = () => {
     return;
 };

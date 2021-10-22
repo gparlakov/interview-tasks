@@ -1,3 +1,3 @@
-export const isLeapYear = (...params: any): boolean | undefined => {
+export const isLeapYear = () => {
     return;
 }

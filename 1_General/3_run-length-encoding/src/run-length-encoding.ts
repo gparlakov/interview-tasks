@@ -1,7 +1,7 @@
-export const encode = (str?: string): string | undefined => {
+export const encode = () => {
     return;
 };
 
-export const decode = (str?: string): string | undefined => {
+export const decode = () => {
     return;
 };
