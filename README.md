@@ -29,12 +29,12 @@
 
 
 ## Angular tasks
-- [Email form](2_Angular/1_email-form)
+- [Email form](2_Angular/email-form)
 
     Create a form(preffered reactive way)
-- [Hardware-version service](2_Angular/2_hwv-service)
+- [Hardware-version service](2_Angular/hwv-service)
 
     Create a service to cache requests
-- [Custom toggle component](2_Angular/3_custom-toggle)
+- [Custom toggle component](2_Angular/custom-toggle)
 
     Create a custom toggle component

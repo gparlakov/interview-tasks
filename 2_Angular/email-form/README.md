@@ -1,6 +1,6 @@
 # Email Form task
 
-Create a form(reactive preffered) that has the following fields:
+Create a form(reactive preffered way) that has the following fields:
 
 -   Custom SMTP server (toggle)
 -   SMTP Server name
@@ -20,7 +20,6 @@ Create a form(reactive preffered) that has the following fields:
 
 -   Custom SMTP server is **OFF**
     -   All other fields **ARE** _disabled_
-    -   And **Require Authentication** is set to **OFF**
 -   Custom SMTP server is **ON**
     -   All other fields **ARE** _enabled_ (except **username** and **password** - see below)
 -   Required authentication is **OFF**

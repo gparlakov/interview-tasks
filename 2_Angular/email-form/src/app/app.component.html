@@ -1,0 +1,57 @@
+<div class="main-container">
+    <header class="header header-6">
+        <div class="branding">
+          <span class="title">Email Form</span>
+        </div>
+    </header>
+    <div class="content-container">
+        <div class="content-area">
+            <!-- Email form template -->
+            <form clrForm clrLayout="horizontal">
+              <!-- Custom SMTP Server toggle -->
+              <div class="clr-form-control">
+                  <clr-toggle-wrapper>
+                      <input type="checkbox" clrToggle name="custom-smtp" />
+                      <label>Custom SMTP server</label>
+                  </clr-toggle-wrapper>
+              </div>
+
+              <!-- SMTP Server Name -->
+              <clr-input-container>
+                  <label>SMTP Server name</label>
+                  <input clrInput placeholder="SMTP Server name" name="server-name" />
+              </clr-input-container>
+
+              <!-- SMTP Server Port -->
+              <clr-input-container>
+                  <label>SMTP server port</label>
+                  <input clrInput placeholder="SMTP server port" name="server-port" />
+              </clr-input-container>
+
+              <!-- Requires authentication -->
+              <div class="clr-form-control">
+                  <clr-toggle-wrapper>
+                      <input type="checkbox" clrToggle name="authentication" />
+                      <label>Required authentication</label>
+                  </clr-toggle-wrapper>
+              </div>
+
+              <!-- Username -->
+              <clr-input-container>
+                  <label>Username</label>
+                  <input clrInput placeholder="Username" name="username" />
+              </clr-input-container>
+
+              <!-- Password -->
+              <clr-input-container>
+                  <label>Password</label>
+                  <input clrInput placeholder="Password" name="password" />
+              </clr-input-container>
+          </form>
+          <button class="btn">Discard</button>
+          <button class="btn btn-primary">Save</button>
+
+            <!-- /Email form template -->
+        </div>
+    </div>
+</div>
