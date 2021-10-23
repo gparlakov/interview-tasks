@@ -1,5 +1,5 @@
 {
-    "name": "1_leap-year",
+    "name": "palindrome",
     "version": "1.0.0",
     "description": "Given a year, report if it is a leap year.",
     "main": "index.js",

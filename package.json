@@ -1,0 +1,16 @@
+{
+    "name": "interview-tasks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lerna": "lerna"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ttsvetko/interview-tasks.git"
+    },
+    "dependencies": {
+        "lerna": "^4.0.0"
+    }
+}
