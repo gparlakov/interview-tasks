@@ -1,39 +1,30 @@
-# Interview tasks
+# Email Form task
 
-## Run
-```
-npm run lerna bootstrap
-```
-Then `cd` to a task's directory inside `packages` and run:
-```
-npm start
-```
+Create a form(reactive preffered way) that has the following fields:
 
-## General tasks
+-   Custom SMTP server (toggle)
+-   SMTP Server name
+    -   **accepts only**: letters, numbers, dot, dash
+-   SMTP server port
+    -   positive numbers only
+-   Required authentication (toggle)
+-   Username
+    -   letters and numbers only
+    -   no numbers only values
+-   Password
+    -   any value
+    -   min 8 characters
+    -   max 16 character
 
-- [Leap year](packages/leap-year) | [CodeSandbox](https://codesandbox.io/s/leap-year-64xic)
+### Relation
 
-  Given a year, report if it is a leap year
-
-- [Palindrome](packages/palindrome) | [CodeSandbox](https://codesandbox.io/s/is-palindrome-1grnh)
-
-  Given a string, report if it is a **palindrome**
-
-- [Run Length Encoding](packages/run-length-encoding) | [CodeSandbox](https://codesandbox.io/s/run-length-encoding-ig4rm)
-
-  Implement run-length encoding and decoding
-
-- [Extract-Transform-Load](packages/extract-transform-load) | [CodeSandbox](https://codesandbox.io/s/extract-transform-load-c90jr)
-
-  Convert one input to another
-  
-## Angular tasks
-- [Email form](packages/email-form)
-
-    Create a form(preffered reactive way)
-- [Hardware-version service](packages/hwv-service)
-
-    Create a service to cache requests
-- [Custom toggle component](packages/custom-checkbox)
-
-    Create a custom toggle component
+-   Custom SMTP server is **OFF**
+    -   All other fields **ARE** _disabled_
+-   Custom SMTP server is **ON**
+    -   All other fields **ARE** _enabled_ (except **username** and **password** - see below)
+-   Required authentication is **OFF**
+    -   **username** and **password** are _disabled_
+-   Required authentication is **ON**
+    -   **username** and **password** are _enabled_
+-   **OK** button should be disabled when the form is **NOT** valid
+-   **DISCARD** button should be disabled when form is not changed
